@@ -1,23 +1,23 @@
 tiny_prompt
 ===========
 
-A minimal prompt for Node.js
+Minimal prompt for Node.js
 
 Usage
 -----
 
-JavaScript:
+### JavaScript
 
-    var tprompt = require('./tiny_prompt');
+    var tprompt = require("./tiny_prompt");
 
-    tprompt('Your name: ', function(name) {
-      tprompt('Your favorite color: ', function(color) {
-        console.log('Hello, ' + name + '!');
-        console.log('You like ' + color + '.');
+    tprompt("Your name: ", function(name) {
+      tprompt("Your favorite color: ", function(color) {
+        console.log("Hello, " + name + "!");
+        console.log("You like " + color + ".");
       });
     });
 
-CoffeeScript:
+### CoffeeScript
 
     tprompt = require "./tiny_prompt"
 
