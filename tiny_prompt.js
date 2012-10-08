@@ -2,7 +2,7 @@
 (function() {
   var readline, rl;
 
-  readline = require('readline');
+  readline = require("readline");
 
   rl = readline.createInterface({
     input: process.stdin,
